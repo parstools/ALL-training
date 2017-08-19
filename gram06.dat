@@ -1,0 +1,7 @@
+﻿;G3.2 z Thesis s.37 będąca LL(chyba 2)
+"Thesis G3.2"
+A->B
+A->C
+B->ab
+B->cd
+C->ae

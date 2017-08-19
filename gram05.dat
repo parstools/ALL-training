@@ -1,0 +1,6 @@
+#;G2.6 LL(2) z Thesis s.23
+#"Thesis G2.6"
+A->ab
+A->aB
+B->c
+B->d

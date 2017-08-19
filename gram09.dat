@@ -1,0 +1,5 @@
+#iterative aaa..ac or aaa..ad
+S->Ac
+S->Ad
+A->a+
+

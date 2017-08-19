@@ -1,0 +1,10 @@
+﻿#stack dependent (3.1)
+#Lookahead ba predicts A->b when B calls A, predicts A-> when C calls A.
+#when B calls A - stack P6
+#when C calls A - stack P8
+S->xB
+S->yC
+B->Aa
+C->Aba
+A->b
+A->

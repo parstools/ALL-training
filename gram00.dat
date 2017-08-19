@@ -1,0 +1,8 @@
+#my changed
+#input bc, wchodzi S->Ac,A->B,B->b
+S->Ac
+S->Ad
+A->B
+A->Bd
+B->aB
+B->b

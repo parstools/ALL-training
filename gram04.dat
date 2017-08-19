@@ -1,0 +1,11 @@
+﻿#G2.3 z Thesis s.15 będąca LL(1) a nie LALR(1)
+#"Thesis G2.3"
+S->aA
+S->bB
+A->Ca
+A->Db
+B->Cb
+B->Da
+C->E
+D->E
+E->

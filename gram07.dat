@@ -1,0 +1,7 @@
+;G4.1 LL(2) z Thesis s.51
+;lang=abc,ace,ade, predict 1 is (a,b) predict 2 is {(a,c),(a,d)}
+"Thesis G4.1"
+A->abc
+A->Be
+B->ac
+B->ad
