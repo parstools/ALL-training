@@ -15,14 +15,14 @@ struct Symbol
 	Symbol(string name, int number) : name(name), number(number) { }
 };
 
-enum class TKind { eps, eof, usuall };
+enum class TKind { eps, eof, usual };
 
 struct SymbolT: public Symbol
 {
 	TKind kind;
 	bool isTerm() { return true; }
 	bool isEps() { return kind==TKind::eps; };
-	SymbolT(string name, int number) : Symbol(name, number) { kind = TKind::usuall; }
+	SymbolT(string name, int number) : Symbol(name, number) { kind = TKind::usual; }
 	void setEof() { kind = TKind::eof; }
 	void setEps() { kind = TKind::eps; }
 };
