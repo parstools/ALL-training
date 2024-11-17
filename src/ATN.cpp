@@ -128,7 +128,8 @@ void ATNset::writeDot()
 		string dotname = atns[i]->writeDot();
 		int pos = dotname.find_last_of('.');
 		string pngname = dotname.substr(0, pos) + ".png";
-		boost::process::system("c:\\Graphviz2.38\\bin\\dot.exe", "-Tpng", dotname, "-o", pngname);
+		boost::filesystem::path dotPath = boost::process::search_path("dot");
+		boost::process::system(dotPath	, "-Tpng", dotname, "-o", pngname);
 	}
 }
 

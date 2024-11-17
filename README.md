@@ -17,4 +17,4 @@ I extend simple rules definition by repetition options:
 
 
 ### Prerequisites
-* sudo apt install libboost-system-dev
+* sudo apt install libboost-system-dev libboost-filesystem-dev
