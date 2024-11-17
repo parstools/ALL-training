@@ -1,9 +1,10 @@
 #include <iostream>
 #include <fstream>
 #include "Grammar.h"
+#include <algorithm>
 #include "Exception.h"
 #include "StrUtils.h"
-#include <assert.h>
+#include <cassert>
 
 
 void Prod::read(string line)
@@ -113,12 +114,11 @@ void Grammar::read(vector<string> &lines)
 
 void Grammar::read(string filename)
 {
-	ifstream infile(filename);
+	ifstream infile("../" + filename);
 	string line;
 	skipBOM(infile);
 	vector<string> lines;
-	while (getline(infile, line))
-	{
+	while (getline(infile, line)) {
 		line = trim(line);
 		if (line.length() == 0) continue;
 		if (line[0] == '#') continue;

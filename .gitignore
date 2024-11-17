@@ -1,3 +1,6 @@
+.idea/
+*debug*/
+
 *.png
 *.dot
 

@@ -2,7 +2,7 @@
 #include "ATN.h"
 #include "StrUtils.h"
 #include "Exception.h"
-#include <assert.h>
+#include <cassert>
 
 ATN::ATN(vector<Prod> &ntermProd, int &startNumber)
 {

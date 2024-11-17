@@ -83,7 +83,7 @@ public:
 	void startStateFromParser(shared_ptr<ParsConfigs> configs);
 	void closure();
 	void write();
-	shared_ptr<DFAstate> DFAstate::target(shared_ptr<SymbolT> symterm);
+	shared_ptr<DFAstate> target(shared_ptr<SymbolT> symterm);
 	AmbigEnum checkAmbig(int &retProdNumber);
 };
 

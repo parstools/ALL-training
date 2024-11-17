@@ -1,3 +1,4 @@
+
 # ALL-training
 Training of Adaptive LL(*) Parsing
 
@@ -13,3 +14,7 @@ I extend simple rules definition by repetition options:
 - S->Ac
 - S->Ad
 - A->a+
+
+
+### Prerequisites
+* sudo apt install libboost-system-dev

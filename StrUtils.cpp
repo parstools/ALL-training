@@ -1,4 +1,6 @@
 #include "StrUtils.h"
+
+#include <cstring>
 #include <stdarg.h>  // For va_start, etc.
 #include <memory>    // For std::unique_ptr
 
