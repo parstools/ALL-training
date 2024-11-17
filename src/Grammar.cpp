@@ -114,7 +114,7 @@ void Grammar::read(vector<string> &lines)
 
 void Grammar::read(string filename)
 {
-	ifstream infile("../" + filename);
+	ifstream infile("../samples/" + filename);
 	string line;
 	skipBOM(infile);
 	vector<string> lines;
